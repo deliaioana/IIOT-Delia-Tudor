@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotionSensor.Domain", "Moti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotionSensor.Infrastructure", "MotionSensor.Infrastructure\MotionSensor.Infrastructure.csproj", "{A551CF09-1D89-4E59-BA9A-0F518923F9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSensor.UI", "MotionSensor.UI\MotionSensor.UI.csproj", "{B053794D-92B8-47C7-B0AA-EDDEF30BD7E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotionSensor.UI", "MotionSensor.UI\MotionSensor.UI.csproj", "{B053794D-92B8-47C7-B0AA-EDDEF30BD7E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

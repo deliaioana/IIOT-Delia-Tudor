@@ -17,6 +17,13 @@ builder.Services.AddScoped<IDatabaseContext, DatabaseContext>();
 builder.Services.AddScoped<IRFIDMotionSensorRepository, RFIDMotionSensorRepository>();
 builder.Services.AddScoped<IAlertRepository, AlertRepository>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("motionSensorCors", policy =>
+    {
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -28,6 +35,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("motionSensorCors");
 
 app.UseAuthorization();
 
