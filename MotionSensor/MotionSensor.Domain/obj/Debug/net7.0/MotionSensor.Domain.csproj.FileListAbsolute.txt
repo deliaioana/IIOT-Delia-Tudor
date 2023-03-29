@@ -1,0 +1,12 @@
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\bin\Debug\net7.0\MotionSensor.Domain.deps.json
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\bin\Debug\net7.0\MotionSensor.Domain.dll
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\bin\Debug\net7.0\MotionSensor.Domain.pdb
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.csproj.AssemblyReference.cache
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.AssemblyInfoInputs.cache
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.AssemblyInfo.cs
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.dll
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\refint\MotionSensor.Domain.dll
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\MotionSensor.Domain.pdb
+C:\Users\tudor\Desktop\IoT\MotionSensor\MotionSensor.Domain\obj\Debug\net7.0\ref\MotionSensor.Domain.dll

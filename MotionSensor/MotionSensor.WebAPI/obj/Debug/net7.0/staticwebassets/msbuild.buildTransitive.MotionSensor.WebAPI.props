@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MotionSensor.WebAPI.props" />
+</Project>

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSensor.WebAPI", "MotionSensor.WebAPI\MotionSensor.WebAPI.csproj", "{DE61AD83-34AA-4920-BE21-92F322505228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{254219E6-6E5F-471B-8B57-03955F3E3580}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A1D6767A-6C8A-47E9-AF0E-FD79AA2F2FE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{57332CE0-DF43-4A6B-AEE4-847443E14648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B6C1C1DA-BF2E-4D9E-823B-37C0A50F0B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSensor.Application", "MotionSensor.Application\MotionSensor.Application.csproj", "{C15B2078-7E48-4618-96B7-3F68E22B9957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSensor.Domain", "MotionSensor.Domain\MotionSensor.Domain.csproj", "{DA697492-E930-4D97-8A31-85F4225D702C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSensor.Infrastructure", "MotionSensor.Infrastructure\MotionSensor.Infrastructure.csproj", "{A551CF09-1D89-4E59-BA9A-0F518923F9C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE61AD83-34AA-4920-BE21-92F322505228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE61AD83-34AA-4920-BE21-92F322505228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE61AD83-34AA-4920-BE21-92F322505228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE61AD83-34AA-4920-BE21-92F322505228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15B2078-7E48-4618-96B7-3F68E22B9957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15B2078-7E48-4618-96B7-3F68E22B9957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15B2078-7E48-4618-96B7-3F68E22B9957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15B2078-7E48-4618-96B7-3F68E22B9957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA697492-E930-4D97-8A31-85F4225D702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA697492-E930-4D97-8A31-85F4225D702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA697492-E930-4D97-8A31-85F4225D702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA697492-E930-4D97-8A31-85F4225D702C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A551CF09-1D89-4E59-BA9A-0F518923F9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A551CF09-1D89-4E59-BA9A-0F518923F9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A551CF09-1D89-4E59-BA9A-0F518923F9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A551CF09-1D89-4E59-BA9A-0F518923F9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE61AD83-34AA-4920-BE21-92F322505228} = {254219E6-6E5F-471B-8B57-03955F3E3580}
+		{C15B2078-7E48-4618-96B7-3F68E22B9957} = {A1D6767A-6C8A-47E9-AF0E-FD79AA2F2FE8}
+		{DA697492-E930-4D97-8A31-85F4225D702C} = {57332CE0-DF43-4A6B-AEE4-847443E14648}
+		{A551CF09-1D89-4E59-BA9A-0F518923F9C9} = {B6C1C1DA-BF2E-4D9E-823B-37C0A50F0B17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EBA6E90-1616-48E1-987D-9C6C676B883C}
+	EndGlobalSection
+EndGlobal

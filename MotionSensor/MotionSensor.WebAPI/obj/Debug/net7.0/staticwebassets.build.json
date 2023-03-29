@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cuUEfzRVI809MeVDuhJQLvnsIR6fsYsqK5bbNsf4tmE=",
+  "Source": "MotionSensor.WebAPI",
+  "BasePath": "_content/MotionSensor.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
