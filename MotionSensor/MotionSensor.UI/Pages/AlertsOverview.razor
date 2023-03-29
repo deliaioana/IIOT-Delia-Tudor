@@ -1,0 +1,30 @@
+﻿@page "/alerts-overview"
+
+<h3>Alerts Overview</h3>
+<h3 class="fw-bold">Alerts</h3>
+@if (Alerts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    <tabel class="table table-light">
+        <thead class="table-primary">
+        <th>No.</th>
+        <th>Alert Id</th>
+        <th>Time Stamp</th>
+        </thead>
+
+        <tbody>
+            @foreach (var alert in Alerts)
+            {
+                <tr>
+                    <td>@(@Alerts.IndexOf(alert) + 1)</td>
+                    <td>@alert.Id</td>
+                    <td>@alert.TimeStamp</td>
+                </tr>
+            }
+        </tbody>
+    </tabel>
+}
